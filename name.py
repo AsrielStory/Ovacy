@@ -26,4 +26,4 @@ def generator():
         word_str += "<div class='word_str'>" + i + "</div>"
     return word_str
 
-eel.start('index.html', mode='chrome', size=(800, 600))
+eel.start('index.html', size=(800, 600))
