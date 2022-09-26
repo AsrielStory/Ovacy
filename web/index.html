@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="WordGen.svg">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>Ovacy</title>
+</head>
+<body>
+    <div class="name"><img src="Ovacy.svg" width="128"></div>
+    <div class="box">
+        <div id="word">
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+            <div class="word_str">*</div>
+        </div>
+        <input id="button_input" type="button" value="Сгенерировать" onclick="eel.generator()(change_word);" />
+    </div>
+    <script>
+function change_word(word) {
+    document.getElementById("word").innerHTML = word;
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: #2c2c2c;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.name {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    text-align: center;
+    font-size: 40px;
+    color: #0078bd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box {
+    font-size: 30px;
+    color: rgb(204, 204, 204);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: #383838;
+    border-radius: 3px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-color: #444444;
+    border-style: solid;
+    width: 60%;
+}
+
+#word {
+    margin: 15px;
+}
+
+.word_str {
+    margin: 2px;
+    padding: 3px;
+    display: inline;
+    background: #4e4e4e;
+    border-color: #5c5c5c;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#button_input {
+    border-color: #0078bd;
+    border-style: solid;
+    border-radius: 20px;
+    color: rgb(204, 204, 204);
+    background-color: #0078bd;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Impact, fantasy;
+    font-size: 25px;
+}
+
+#button_input:hover {
+    background-color: #008ddf;
+    border-color: #008ddf;
+}
+
+#button_input:active {
+    background-color: #00a2ff;
+    border-color: #00a2ff;
+}
